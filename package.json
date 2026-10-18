@@ -1,0 +1,26 @@
+{
+  "name": "react-node-ecommerce",
+  "version": "1.0.0",
+  "description": "Projeto completo de e-commerce com React, Node.js, Express e PostgreSQL",
+  "main": "index.js",
+  "scripts": {
+    "install-backend": "cd backend && npm install",
+    "install-frontend": "cd frontend && pnpm install",
+    "install-all": "npm run install-backend && npm run install-frontend",
+    "dev-backend": "cd backend && npm run dev",
+    "dev-frontend": "cd frontend && pnpm run dev",
+    "start-backend": "cd backend && npm start",
+    "build-frontend": "cd frontend && pnpm run build"
+  },
+  "keywords": [
+    "ecommerce",
+    "react",
+    "nodejs",
+    "express",
+    "postgresql",
+    "stripe",
+    "jwt"
+  ],
+  "author": "Rodrigo Marchi Gonella",
+  "license": "MIT"
+}
